@@ -1,0 +1,4 @@
+suites:
+  library_suite:
+    namespace: Inoplate\Widget
+    psr4_prefix: Inoplate\Widget
