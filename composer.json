@@ -1,6 +1,6 @@
 {
     "name": "inoplate/widget",
-    "description": "The Laravel Framework.",
+    "description": "Laravel framework widget wrapper.",
     "keywords": ["laravel", "widget", "inoplate"],
     "license": "MIT",
     "type": "project",
