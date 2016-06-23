@@ -19,9 +19,7 @@ class WidgetServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('\Inoplate\Widget\Widget', 'Inoplate\Widget\Widget');
-        $this->app->singleton('widget', function($app){
-            return new Widget($app['cache.store']);
-        });
+        $this->app->alias('\Inoplate\Widget\Widget', 'widget');
     }
 
     /**
